@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Hao's Bakery Survey</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="heading">
+    <h1 id="title"> Hao's Bakery Survey </h1>
+    <p id="description"> Dear Customer! We'd love to hear your opinions about our desserts </p>
+    </div>
+    <div class="main">
+    <form id="survey-form">
+      <label id="name-label">Name <input id="name" type="text" placeholder="Full Name" required/></label><br>
+      <label id="email-label">Email <input id="email" type="email" placeholder="example@email.com" required/><br>
+      <label id="number-label">Age (in years) <input id="number" placeholder="13+" min="13" max="100" type="number"><br>
+        <h3>How often do you visit Hao's Bakery? </h3>
+        <label>
+          <input 
+          name="frequency" 
+          value= "Every-Week"
+          type= "radio" 
+          checked/>
+          Every Week
+        </label><br>
+        <label>
+          <input
+            name="frequency"
+            value="Every-fortnight"
+            type="radio"/>
+            Every fortnight
+        </label><br>
+        <label>
+          <input 
+            name="frequency"
+            value="Once a month"
+            type="radio"/>
+            Once a month
+        </label><br>
+        <label>
+          <input
+            name="frequency"
+            value="rare"
+            type="radio"/>
+            A few times a year
+        </label><br>
+
+        <h3>Which is your preferred type of chocolate among what we use? </h3>
+      <select id="dropdown">
+        <option disabled selected value> Select an option </option>
+        <option value="dark">Dark Chocolate</option>
+        <option value="milk">Milk Chocolate</option>
+        <option value="mint">Mint Chocolate</option>
+        <option value="white">White Chocolate</option>
+      </select>
+
+        <h3> What are your favourite items to order? 
+          <span class="clue">(Check all that apply)</span>
+        </h3>
+        <label>
+          <input value="doughnuts" type="checkbox"/> Doughnuts
+        </label><br>
+        <label>
+          <input value="cupcakes" type="checkbox" /> Cupcakes </label><br>
+          <label>
+            <input value="cookies" type="checkbox" /> Cookies </label><br>
+          <label>
+            <input value="pastries" type="checkbox" /> Pastries </label><br>
+          <label>
+            <input value="bread" type="checkbox" /> Bread </label><br>
+          <label>
+            <input value="pies" type="checkbox" /> Pies </label><br>
+
+        <h3> Any suggestions for improvement? </h3>
+        <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comments here..."
+          ></textarea> <br>
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+    </form>
+  </body>
+</html>
