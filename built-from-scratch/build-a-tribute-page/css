@@ -1,0 +1,66 @@
+html, body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(244, 194, 194);
+}
+
+#main {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#title {
+  font-family: 'Alanta', "Segoe UI", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+
+#image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+#tribute-info {
+  font-size: 1.25rem;
+  color: #333;
+  text-align: center;
+}
+
+#tribute-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  color: #0066cc;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
