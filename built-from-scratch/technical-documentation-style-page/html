@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation Style Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main id="main-doc">
+      <h1 id="main-heading">Pride and Prejudice</h1>
+      <section class="main-section" id="Introduction">
+        <header class="headings">
+          Introduction
+        </header>
+        <p id="para">"Pride and Prejudice," authored by Jane Austen and first published in 1813, is a novel centered around the evolution of Elizabeth Bennet. The narrative explores the consequences of hastiness in judgment and emphasizes the distinction between surface-level virtue and genuine goodness.</p>
+        <p id="para"> Over the years, "Pride and Prejudice" has consistently ranked high on lists of beloved literary works, capturing the admiration of both scholars and the general readership. It has achieved widespread acclaim in English literature, boasting over 20 million copies sold and serving as a wellspring of inspiration for numerous modern literary creations. The enduring popularity of the novel is evident through its numerous dramatic adaptations, reprints, unofficial sequels, films, and TV renditions, all of which have brought the novel's memorable characters and themes to diverse audiences for more than a century. </p>
+      </section>
+      <section class="main-section" id="Plot_Summary">
+        <header class="headings">
+          Plot Summary
+        </header>
+        <p id="para"> In 19th-century Hertfordshire, Mrs. Bennet strives to secure advantageous marriages for her five daughters. The arrival of wealthy Mr. Bingley raises hopes, but his friend Mr. Darcy's aloofness offends Elizabeth. Misunderstandings unfold, leading to Jane's heartbreak and Elizabeth rejecting Mr. Collins.</p>
+        <p id="para">In Kent, revelations about Darcy's interventions and a rejected proposal deepen Elizabeth's animosity. Later, during a tour, she witnesses Darcy's changed behavior at Pemberley. News of Lydia's elopement and Darcy's discreet intervention ensue.</p>
+        <p id="para">Despite Lady Catherine's opposition, Darcy proposes again, and this time, Elizabeth accepts. The tale concludes with Jane and Bingley's reunion, and Elizabeth's journey from prejudice to acceptance of Mr. Darcy's love.</p>
+      </section>
+      <section class="main-section" id="Main_Characters">
+        <header class="headings">
+          Main Characters
+        </header>
+        <ul id="listing">
+          <li id="list-item"> Elizabeth Bennet </li>
+          <li id="list-item"> Fitzwilliam Darcy </li>
+          <li id="list-item"> Jane Bennet </li>
+          <li id="list-item"> Charles Bingley </li>
+          <li id="list-item"> George Wickham </li>
+          <li id="list-item"> William Collins </li>
+          <li id="list-item"> Catherine Bennet </li>
+          <li id="list-item"> Lydia Bennet </li>
+          <li id="list-item"> Caroline Bingley </li>
+        </ul>
+      </section>
+      <section class="main-section" id="Publication_History">
+        <header class="headings">
+          Publication History
+        </header>
+        <p id="para">Austen sold the copyright of Pride and Prejudice to Thomas Egerton for £110, a decision that proved costly as the novel's success generated significant profits for the publisher. Egerton published the first edition in three volumes in January 1813, with subsequent editions in 1813 and 1817. The novel was translated into various languages and published in the United States in August 1832.</p>
+        <p id="para">Originally published anonymously, Pride and Prejudice was attributed to "the Author of Sense and Sensibility," establishing Austen as an author, albeit anonymously. R. W. Chapman's 1923 edition has become the standard for modern versions of the novel.</p>
+      </section>
+      <section class="main-section" id="Adaptations">
+        <header class="headings">
+          Adaptations
+        </header>
+        <p id="para">Numerous screen adaptations have popularized Pride and Prejudice. Notable versions include a 1940 Academy Award-winning film and the 2005 adaptation starring Keira Knightley. BBC produced television versions in 1980 and the widely acclaimed 1995 series with Jennifer Ehle and Colin Firth. The story has also been adapted on stage, including a 1935 version by Helen Jerome and a 1995 musical concept album.</p>
+        <p id="para">Pride and Prejudice has inspired various literary works, from sequels like Pemberley by Emma Tennant to modern adaptations like Bridget Jones's Diary by Helen Fielding. Seth Grahame-Smith's Pride and Prejudice and Zombies introduced a unique twist, blending Austen's work with elements of horror. Pamela Aidan's trilogy tells the story from Mr. Darcy's perspective, while Jo Baker's Longbourn explores the lives of the servants.</p>
+        <p id="para">In contemporary settings, Curtis Sittenfeld's Eligible transplants the characters to modern-day Cincinnati, adding a fresh twist to the Bennet family's struggles. Fire Island, a 2022 movie, reimagines Pride and Prejudice as a gay drama set on Fire Island.</p>
+        <p id="para">Beyond literature, Pride and Prejudice has inspired scientific endeavors. In 2010, a pheromone was named "darcin" after Mr. Darcy due to its attractiveness to female mice. Additionally, a scientific paper speculated about genetic diseases in the Bennet family, offering a unique perspective on the characters.</p>
+      <code>Word Count: 122356</code><br>
+      <code>Character count: 690675</code><br>
+      <code>Publication Date: 28 January 1813</code><br>
+      <code>Dewey Decimal: 823.7</code><br>
+      <code>LC Class: PR4034.P7</code><br>
+      </section>
+      <nav id="navbar">
+        <header>
+          Click to jump to topic
+        </header>
+        <a href="#Introduction" class="nav-link" id="hlink">Introduction</a>
+        <a href="#Plot_Summary" class="nav-link" id="hlink">Plot Summary</a>
+        <a href="#Main_Characters" class="nav-link" id="hlink">Main Characters</a>
+        <a href="#Publication_History" class="nav-link" id="hlink">Publication History</a>
+        <a href="#Adaptations" class="nav-link" id="hlink">Adaptations</a>
+      </nav>
+    </main>
+  </body>
+</html>
