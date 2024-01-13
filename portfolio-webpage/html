@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale: 1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Portfolio Page</title>
+  </head> 
+  <body>
+    <nav id="navbar">
+      <a href="#welcome-section">Welcome</a>
+      <a href="#projects">Projects</a>
+    </nav>
+    <section id="welcome-section">
+      <h1>Hi, I'm Hao, a photographer</h1>
+    </section>
+    <section id="testimonials">
+  <h2>Testimonials</h2>
+  <div class="testimonial">
+    <p>"Hao's photography truly captures the beauty of the moment. His work is absolutely stunning!"</p>
+    <p>- Jane Doe, Client</p>
+  </div>
+  <div class="testimonial">
+    <p>"I was blown away by Hao's professionalism and skill. The photos he took for our wedding were incredible."</p>
+    <p>- John Smith, Client</p>
+  </div>
+  <div class="testimonial">
+    <p>"Hao has an amazing eye for detail. I highly recommend his photography services."</p>
+    <p>- Emma Brown, Client</p>
+  </div>
+</section>
+
+    <section id="projects">
+      <a href="https://www.freecodecamp.org/fcc0bdf263b-113f-480f-851a-5ac811bab2a0" target= "_blank" id="profile-link">View all my photos here!</a>
+      <div class="projects-container">
+      <div class="project-tile">
+  <a href="https://example.com/project1" target="_blank">
+    <img src="https://media.istockphoto.com/id/885460912/photo/burlington-vermont-usa.jpg?s=612x612&w=0&k=20&c=BaSwiMmUjlxP2w1hQYBU8sXBS3ursSsN_6v4a4t6Mis=" alt="Project 1">
+  </a>
+</div>
+<div class="project-tile">
+  <a href="https://example.com/project2" target="_blank">
+    <img src="https://www.stockphotosecrets.com/wp-content/uploads/2021/06/photocase_photo_id_3236595_square-550x550.jpg" alt="Project 2">
+  </a>
+</div>
+<div class="project-tile">
+  <a href="https://example.com/project3" target="_blank">
+    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230721/pngtree-enchanted-forest-at-night-square-format-3d-digital-illustration-of-a-image_3717224.jpg" alt="Project 3">
+  </a>
+</div>
+</div>
+    <section id="social-media">
+      <p>Find me on:</p>
+      <a href="https://www.instagram.com/zb1official/" target="_blank" id="sns-link" >
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram logo">
+      </a>
+      <a href="https://x.com/ZB1_official?s=20" target="_blank" id="sns-link">
+        <img src="https://static.vecteezy.com/system/resources/previews/027/395/710/non_2x/twitter-brand-new-logo-3-d-with-new-x-shaped-graphic-of-the-world-s-most-popular-social-media-free-png.png">
+      </a>
+    </section>
+  </body>
+</html>
