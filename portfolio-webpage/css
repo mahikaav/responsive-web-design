@@ -1,0 +1,91 @@
+body {
+  background-image: url(https://graphicdesignjunction.com/wp-content/uploads/2014/05/0033+background+pattern+designs.jpg);
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:#f0ddbf; 
+  padding: 10px 0;
+}
+
+#navbar a {
+  margin: 0 15px; 
+}
+
+#testimonials {
+  font-family: "Sofia", cursive;
+  font-style: italic;
+  text-align: center;
+  opacity: 70%;
+  padding: 20px 0;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.testimonial p {
+  font-size: 1.2em;
+}
+
+.project-tile {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #F5F5F5; 
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
+  
+}
+
+.project-tile img {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+}
+
+.project-tile:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b08d57 ;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+#social-media img {
+  width: 50px;
+  height: 50px;
+}
+
+#sns-link {
+  background-color: transparent;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #abcdef;
+  }
+}
